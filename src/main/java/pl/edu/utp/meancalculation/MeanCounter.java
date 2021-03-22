@@ -23,7 +23,9 @@ public class MeanCounter {
     }
 
     public static void displayMean(MeanAlgorithm algorithm) {
+
         System.out.println(algorithm.calculateMean());
+        System.out.println("Witam!");
     }
 
     public static void displayMeans(MeanAlgorithm... algorithms) {
