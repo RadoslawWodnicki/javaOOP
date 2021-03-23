@@ -19,6 +19,7 @@ public class GeometricMeanAlgorithm implements MeanAlgorithm {
 
     @Override
     public double calculateMean() {
+
         return Math.pow(currentSum, (double) 1 / noOfFactors);
     }
 
